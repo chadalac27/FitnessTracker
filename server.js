@@ -22,6 +22,7 @@ mongoose.connect(
   }
 );
 
+
 //Route to return the excercise.html
 app.get("/exercise", (req,res) => {
     res.sendFile(path.join(__dirname, "./public/exercise.html"))
